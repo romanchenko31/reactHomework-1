@@ -1,0 +1,16 @@
+.title{
+  margin-top: 10px;
+  text-align: center;
+}
+.statList{
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  background: #e7e7e7;
+  padding: 30px;
+  border-radius: 10px;
+}
+.label{
+    display: block;
+}

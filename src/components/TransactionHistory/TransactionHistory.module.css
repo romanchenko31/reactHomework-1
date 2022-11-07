@@ -1,0 +1,16 @@
+.transactionHistory{
+  width: 800px;
+  text-align: center;
+}
+thead{
+    background: #03a9f4;
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 5px;
+}
+.isBlue{
+  background-color: #03a9f44f;
+}
