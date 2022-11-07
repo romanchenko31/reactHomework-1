@@ -1,6 +1,7 @@
 .transactionHistory{
   width: 800px;
   text-align: center;
+  margin: 0 auto;
 }
 thead{
     background: #03a9f4;
