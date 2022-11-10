@@ -11,9 +11,9 @@
 
 .isOn{
   composes:status;
-  background-color: green;
+  background-color: var(--bg-green);
 }
 .isOff {
   composes: status;
-  background-color: red;
+  background-color: var(--bg-red);
 }

@@ -5,9 +5,11 @@ import style from '../FriendListItem/FriendListItem.module.css';
 const FriendListItem = ({ avatar, name, isOnline, id }) => {
   return (
       <li key={id} className={style.item}>
-
- 
-      {isOnline?<span className={style.isOn}></span>:<span className={style.isOff}></span>}
+      {
+        isOnline 
+          ? (<span className={style.isOn}></span>) 
+          : (<span className={style.isOff}></span>)
+      }
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
     </li>

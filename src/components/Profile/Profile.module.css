@@ -1,5 +1,5 @@
 .profile{
-  background: #f5717147;
+  background: var(--bg-Profile);
   padding: 10px;
 }
 .description {

@@ -4,7 +4,7 @@
   margin: 0 auto;
 }
 thead{
-    background: #03a9f4;
+    background: var(--blue-headTable);
 }
 th{
     padding: 10px;
@@ -13,5 +13,5 @@ td{
     padding: 5px;
 }
 .isBlue{
-  background-color: #03a9f44f;
+  background-color: var(--blue-tableCell);
 }
