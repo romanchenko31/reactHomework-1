@@ -1,0 +1,17 @@
+.transactionHistory{
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+thead{
+    background: var(--blue-headTable);
+}
+th{
+    padding: 10px;
+}
+td{
+    padding: 5px;
+}
+.isBlue{
+  background-color: var(--blue-tableCell);
+}

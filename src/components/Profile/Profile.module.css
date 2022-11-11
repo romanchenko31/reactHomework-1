@@ -1,0 +1,21 @@
+.profile{
+  background: var(--bg-Profile);
+  padding: 10px;
+}
+.description {
+  text-align: center;
+  margin: 0 auto;
+}
+.avatar{
+  width: 200px;
+}
+.stats{
+    display: flex;
+    justify-content: center;
+}
+li:not(:last-child){
+    margin-right: 10px;
+}
+.label{
+    display: block;
+}

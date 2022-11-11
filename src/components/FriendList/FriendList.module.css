@@ -1,0 +1,7 @@
+.friendList{
+  width: 250px;
+  margin: 0px auto;
+  background: var(--bg-friendList);
+  padding: 30px;
+  border-radius: 10px;
+}
